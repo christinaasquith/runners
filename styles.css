@@ -1,0 +1,24 @@
+body { 
+Background-color: cornflowerblue;
+text-align: center;
+border-radius: 25px;
+}
+
+
+h1 {
+color: #ECB158;
+font-family: Georgia;
+font-size: 2em;
+padding-top: 100px;
+text-align: center;
+}
+
+
+h2 { 
+color: #E61B45;
+}
+
+h3 { 
+color: #0081CA;
+}
+   
