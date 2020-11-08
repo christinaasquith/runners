@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CVS Runners</title>
-        <link href="styles.css" rel="stylesheet">
+<head>
+    <title>CVS Runners</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
 
-        <script src="script.js"></script>
-    </head>
-    <body>
-        
+<body>
+    <section id="overlay"> 
+        <img class="logo" src="http://gg.gg/mtzj1">
+        <!--  this above is the cvu logo -->
+    </section>
+
+    <section id="welcome">
         <h1>Welcome to Charlotte X Country Runners Site</h1>
-        <center><p>Each Runners name will be shown here</p></center>
-        <ul>
-        <l1>Amelie</l1>
-        <li>Eloise</li>
-        <Li>Lily Mae</Li>
-    </ul>
-        <h2>Runner's time and distance can be shown here</h2>
-        <p>Amelie: 1.3</p>
+        <hr>
+        <center>
+            <p>Add your name and your race time below to see your rank amongst all the runners!</p>
+        </center>
+    </section>
 
-        <h3> Runner's Goals! 
-        </h3>
-        
-    </body>
+    <h1>Add your name here</h1>
+    <form
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScpp2IDsMcgqRMCZ5Bp_Fvo7zlNa7jI5rLgO2ONtHCxpWm-5w/formResponse"
+        method="POST">
+        <label for="name"> What is your name, runner?</label>
+        <input type="text" name="entry.775535206" value="">
+
+        <section id="time">
+            <h1>How Fast Did You Run?</h1>
+            <label for="seconds">Add your race time in total seconds</label>
+            <input type="numbers" name="entry.1137206099" value="" onchange="showminutes()">
+
+            <section class="submission">
+                <input type="submit" value="go4it">
+            </section>
+    </form>
+    <hr>
+</body>
 </html>
