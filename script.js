@@ -1,5 +1,5 @@
 
-document.form["age_form"].onsubmit = function(){
+document.forms["age_form"].onsubmit = function(){
     console.log ('form submitted');
     let youngAge = document.getElementById("age").value;
     console.log (youngAge);
@@ -16,63 +16,64 @@ document.form["age_form"].onsubmit = function(){
 
 
 
-//all the code below is stuff I'm practicting still and don't really understand
-function showminutes(){
-    console.log("are you working?")
-}
+//all the code below is stuff I'm practicting still and don't really
+
+// function showminutes(){
+//     console.log("are you working?")
+// }
  
-document.getElementByIdById("demo").innerHTML = "Hello World!";
+// document.getElementByIdById("demo").innerHTML = "Hello World!";
 
 
-let needRun = true;
+// let needRun = true;
 
-if (needRun) {
-    console.log("Go Running Today!");
-} else {
-    console.log("Keep on keeping on!");
-}
+// if (needRun) {
+//     console.log("Go Running Today!");
+// } else {
+//     console.log("Keep on keeping on!");
+// }
 
-let exerciseChoices = "Running";
-switch (exerciseChoices) {
-    case "swim":
-        console.log("Swim 30 mins");
-        break;
-    case "bike":
-        console.log("Bike an hour");
-        break;
-    case "pilates":
-        console.log("Pilates for 40 minutes");
-        break;
-    default:
-        console.log("Invalid exercise");
-        break;
+// let exerciseChoices = "Running";
+// switch (exerciseChoices) {
+//     case "swim":
+//         console.log("Swim 30 mins");
+//         break;
+//     case "bike":
+//         console.log("Bike an hour");
+//         break;
+//     case "pilates":
+//         console.log("Pilates for 40 minutes");
+//         break;
+//     default:
+//         console.log("Invalid exercise");
+//         break;
 
-}
+// }
 
-let activity = "running";
-let clothingChoice = "";
+// let activity = "running";
+// let clothingChoice = "";
 
-if (activity === "running") {
-    clothingChoice = "Bring sneakers.";
-} else if (activity === "swimming") {
-    clothingChoice = "Bring a swimsuit.";
-} else if (activity === "biking") {
-    clothingChice ="Bring a helmet.";
-} else if (activity === "pilates") {
-    clothingChoice = "Bring a mat.";
-} else {
-    console.log('Invalid activity.');
-};
-console.log(clothingChoice); 
+// if (activity === "running") {
+//     clothingChoice = "Bring sneakers.";
+// } else if (activity === "swimming") {
+//     clothingChoice = "Bring a swimsuit.";
+// } else if (activity === "biking") {
+//     clothingChice ="Bring a helmet.";
+// } else if (activity === "pilates") {
+//     clothingChoice = "Bring a mat.";
+// } else {
+//     console.log('Invalid activity.');
+// };
+// console.log(clothingChoice); 
 
 
 
-import React from "react"
-import ReactDOM from "react-dom"
+// import React from "react"
+// import ReactDOM from "react-dom"
 
-function App() {
-    const date = 
-}
+// function App() {
+//     const date = 
+//}
 
 
 // let raceDistance = Math.floor(Math.random()* 1000);
