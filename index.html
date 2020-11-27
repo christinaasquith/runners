@@ -7,26 +7,56 @@
 </head>
 
 <body>
+    <!-- this is the links at the top-->
+<nav class="navigation">
+    <ul>
+        <li>Great runs</li>
+        <li>Great walks</li>
+        <li>Great hikes</li>
+        <li>OUTSIDE</li>
+        <li>Great bike rides</li>
+        <li>Great roller blading</li>
+        
+    </ul>
+</nav>
+ 
     <section id="overlay"> 
         <img class="logo" src="http://gg.gg/mtzj1">
         <!--  this above is the cvu logo -->
     </section>
-
-    <section id="welcome">
+ 
+        <!-- here i'm used the box model to style a section-->
+        <div id="banner"> 
+       
         <h1>Welcome to Charlotte Friends Activity Site</h1>
         <hr>
         <center>
             <p>Add your name and your activity to share how you've stayed active this week</p>
             <p><i>This site was last updated on Nov 8th</i></p>
         </center>
-    </section>
+    </div>
+  
+    <!-- end the banner section-->
+    <!--now i'm trying javascript and allowing users to input their names with only one reply possible-->
 
-    <h1>Add your name here</h1>
+    <h1>Go on, type in your name</h1>
     <form
         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScpp2IDsMcgqRMCZ5Bp_Fvo7zlNa7jI5rLgO2ONtHCxpWm-5w/formResponse"
         method="POST">
         <label for="name"> What is your name?</label>
         <input type="text" name="entry.775535206" value="">
+        <br>
+    <!--trying to generate an different replies based on age -->
+        <h2>Now let's figure out the best activity for you</h2> 
+        <form name="age_form" action="#">
+        <label for = "age">What's your age?</label>   
+        <input type="number" name="age" id="age"
+        name="first-number=field">
+        </form>
+        <br>
+        <div id='answer'>
+
+        </div>
 
         <section id="time">
             <h1>How many minutes were you active this week?</h1>
