@@ -5,10 +5,23 @@ document.forms["age_form"].onsubmit = function(){
     console.log (youngAge);
     
     if (youngAge <=9) {
-        document.getElementById('answer').innerHTML = 'You must have the legs of a fawn! We will keep it short';
+        document.getElementById('answer').innerHTML = 'A Fawn! Your wobbly legs are still getting strong! We will keep it short';
     }
     else {
-        document.getElementById('answer').innerHTML = 'You are a grasshopper! We have a big activity for you';
+        document.getElementById('answer').innerHTML = 'A Grasshopper! You can take on some serious hills!';
+    }
+}
+
+document.forms["hop_form"].onsubmit = function(){
+    console.log ('form submitted');
+    let grassHop = document.getElementById("hop").value;
+    console.log (grassHop);
+    
+    if (grassHop = hop) {
+        document.getElementById('answer').innerHTML = 'Charlotte Beach is fun';
+    }
+    else {
+        document.getElementById('answer').innerHTML = 'You didn`t type hop so I have no idea!';
     }
 }
 
